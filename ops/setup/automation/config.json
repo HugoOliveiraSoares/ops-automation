@@ -1,0 +1,21 @@
+{
+  "dockerImageBuilder": "ritclizup/rit-shell-bat-builder",
+  "inputs": [
+    {
+      "label": "Type your user: ",
+      "name": "rit_input_text",
+      "required": true,
+      "tutorial": "Your prefer name",
+      "type": "text"
+    },
+    {
+      "label": "Type your password: ",
+      "name": "rit_input_password",
+      "required": true,
+      "tutorial": "Type a secret",
+      "type": "password"
+    }
+  ],
+  "template": "shell-bat",
+  "templateRelease": "2.17.0"
+}
